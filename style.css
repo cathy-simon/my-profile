@@ -1,0 +1,122 @@
+/*Colors and Fonts */
+
+body {
+	background: #edf6f9;
+	color: #5e6472;
+	font-family:'Cormorant Garamond', serif;
+	font-size: 16px;
+	font-weight: lighter;
+	line-height: 140%;
+	text-align: justify;
+}
+
+
+h1, h2, h3, a {
+	font-family:'Cormorant Garamond', serif;
+}
+
+h1 {
+	color: #006d77;
+	font-size: 38px;
+	line-height: 140%;
+	font-weight: bold;
+}
+
+
+h2 {
+	color: #006d77;
+	font-size: 32px;
+	font-weight: bold;
+}
+
+h3 {
+	color: #83c5be;
+	font-weight: lighter;
+}
+
+
+a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+
+}
+a:hover {
+	color: #83c5be;
+}
+
+/*Custom design and class */
+
+.container {
+	width: 800px;
+	margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+
+@media(max-width: 500px) {
+	.container {
+		width:400px;
+	}
+}
+
+
+.card-white {
+ background-color: white;
+ padding: 35px;
+ box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+ border-radius: 6px;
+ margin: 20px 4px;
+ text-align: center;
+}
+
+.img-circle {
+	border-radius: 50%;
+}
+
+.btn-blue {
+	color: white;
+	background-color: #83c5be;
+	padding: 15px 20px;
+	border-radius: 4px;
+	width: 300px;
+	margin: auto;
+}
+.btn-blue:hover {
+	background-color: #5e6472;
+
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 20px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: #83c5be;
+}
+
+.list-inline i:hover {
+	color: #5e6472;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+.list-point {
+	list-style: none;
+}
+
